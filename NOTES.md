@@ -1,4 +1,4 @@
-# What is the RESTful?>
+# What is the RESTful?
 
 > This is some notes from second talk of Miguel Grinberg in Pycon2015. [Link video](https://youtu.be/pZYRC8IbCwk)
 > REST is one of the most confusing topics that people are giving their opinions everyday. This talk is one of that personal opinions.
@@ -61,7 +61,7 @@ But Miguel's opinion is we shouldn't use cookies. We can use other techniques to
 E.g. /api/v2.0/books/:id or /api/v2.0/book/:id is okay anyway.
 
 #### Resource of representations
-- Clients do not have direct acess to resources; they only see their representations. It means the data client recieves from API depends on how server defines it, or represents it. (Technically, it's call the Seriallization)
+- Clients do not have direct acess to resources; they only see their representations. It means the data client recieves from API depends on how server defines it, or represents it. (Technically, it's call the Serialization)
 - The server can provide response in any format (content type) (JSON, XML)
 - Clients perform all operation on the reprenstation.
 
@@ -76,7 +76,7 @@ E.g. /api/v2.0/books/:id or /api/v2.0/book/:id is okay anyway.
 
 #### Hypermedia (HATEOAS) - Nobody does this.
 - Clients do not know any resource URLs in the advance except for the root URL of the API
-- Resource URLs are discoverd through links provided in resource representations.
+- Resource URLs are discovered through links provided in resource representations.
 
 
 # Bonus - RESTful API best practices
